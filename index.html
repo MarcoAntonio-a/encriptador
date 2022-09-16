@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❗Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+   
+    <header>
+        <img src="./image/Vector.png" alt="Desencriptador">
+    </header>
+    <main>
+         <!--  -->
+    <section class="encriptar">
+        <textarea class="inputTextArea" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+        <p>❕Solo letras minúsculas y sin acento</p>
+        <div class="encriptar-button">
+            <button id="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+            <button id="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+        </div>
+    </section>
+    <!--  -->
+    <div class="resultado">
+        <img src="/image/Muñeco.svg" alt="Logo Entrada" class="muneco">
+        <textarea class="ouputTextArea" cols="30" rows="10" readonly></textarea>
+        <h2 class="mensajeh2">Ningún mensaje fue encontrado</h2>
+        <p class="mensajep">Ingresa el texto que desees encriptar o desencriptar.</p>
+        <button id="btn-copy" class="btn-copyclass" onclick="btnCopy()">Copiar</button>
+    </div>
+    </main>
+    <footer>
+        <p>Marco Antonio Chipana </p>
+            <button id="git"><a href="https://www.linkedin.com/in/marco-antonio-chipana-condori-61a1041b2"></a><img src="/image/github.png" alt="Enlace Github"></a></button>
+            <button id="lin"><img src="/image/linkedin.png" alt="Enlace Linkedin"><a href="https://www.linkedin.com/in/marco-antonio-chipana-condori-61a1041b2/"></a></button>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
